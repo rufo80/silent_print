@@ -19,7 +19,3 @@ class Print_silent():
                     win32print.EndDocPrinter(hprinter)
             finally:
                 win32print.ClosePrinter(hprinter)
-
-
-file_to_print = 'My_FIle.pdf'
-print_silent(file_to_print)
